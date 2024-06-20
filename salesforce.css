@@ -1,0 +1,471 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "ITC Avant Garde", system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    height: 14%;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+#maintwo {
+    height: 14%;
+    width: 100%;
+    background-color: rgb(222, 222, 238);
+
+}
+
+#pageone {
+    height: 90%;
+    width: 100%;
+    background-color: white;
+
+}
+
+#pagetwo {
+    height: 70%;
+    width: 100%;
+
+}
+
+#contactdetails {
+    text-align: center;
+    color: rgb(13, 13, 100);
+}
+
+.six {
+    font-size: 18px;
+    color: rgb(12, 12, 99);
+}
+
+i {
+    color: black;
+    font-size: large;
+}
+
+.Login {
+    display: flex;
+}
+
+.try {
+    background-color: green;
+    height: 30px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    border-radius: 3px;
+    color: white;
+}
+
+.icon {
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.icon:hover {
+    background-color: lightblue;
+}
+
+.six:hover {
+    color: red;
+}
+
+#pageo h3 {
+    height: 50px;
+    background-color: rgb(7, 7, 90);
+    color: white;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#two {
+    display: flex;
+}
+
+.right {
+    height: 60vh;
+    width: 50%;
+}
+
+.left {
+    height: 60vh;
+    width: 50%;
+
+}
+
+#footer {
+    height: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#footer h1 {
+    font-weight: bold;
+
+}
+
+.right h1 {
+    margin: 40px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.right p {
+    font-size: 15px;
+    margin: 40px;
+    margin-bottom: 40px;
+    font-weight: lighter;
+}
+
+#button {
+    display: flex;
+    gap: 20px;
+    margin: 40px;
+}
+
+#button button {
+    height: 50px;
+    width: 170px;
+    background-color: blue;
+    color: white;
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+}
+
+.left-last {
+    height: 250px;
+    width: 430px;
+    margin: 50px;
+    margin-right: 40px;
+
+}
+
+.left {
+    margin: 10px;
+
+}
+
+.left-last video {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.imageone {
+    height: 350px;
+    width: 250px;
+    /* border: 2px solid black; */
+
+}
+
+#pagetwo {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.imagetwo {
+    height: 350px;
+    width: 250px;
+    /* border: 2px solid black; */
+
+}
+
+.imageundertwo img {
+    height: 50%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.imagethree {
+    height: 350px;
+    width: 250px;
+    /* border: 2px solid black; */
+}
+
+.imageunderthree img {
+    height: 50%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.imagefour {
+    height: 350px;
+    width: 250px;
+    /* border: 2px solid black; */
+}
+
+.imageunderfour img {
+    height: 50%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.imageunder img {
+    height: 50%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#pagetwo {
+    display: flex;
+    gap: 30px;
+}
+
+#lastline {
+
+    height: 60px;
+    width: 100%;
+}
+
+#pagefour {
+    height: 90%;
+    width: 100%;
+    /* background-color: blue; */
+}
+
+#lastline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lastlinebutton button {
+    height: 50px;
+    width: 250px;
+    background-color: white;
+    font-size: large;
+    color: blue;
+    border-radius: 8px;
+    border: 2px solid blue;
+}
+
+.lastlinebutton button:hover {
+    border: 2px solid black;
+    background-color: rgb(218, 240, 240);
+    color: black;
+}
+
+#pagefour {
+    /* border: 2px solid black; */
+    height: 80%;
+    width: 100%;
+}
+
+.pagefourone {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    font-size: larger;
+}
+
+.pagefourtwo {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-weight: 450;
+}
+
+#buttonlast {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+}
+
+.buttonlasthelp button {
+    height: 60px;
+    width: 200px;
+    font-size: large;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+.buttonlasthelpone button {
+    height: 60px;
+    width: 200px;
+    font-size: large;
+    border-radius: 6px;
+    border: 2px solid blue;
+    color: blue;
+    background-color: white
+}
+
+.buttonlasthelpone button:hover {
+    border: 2px solid pink;
+    color: black;
+    background-color: white
+}
+
+.lastheader {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#pagefive {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rightone {
+    height: 80vh;
+    width: 30vw;
+    margin: 25px;
+}
+
+#rightsecond {
+    height: 80vh;
+    width: 30vw;
+    margin: 25px;
+}
+
+.rightoneimage {
+    display: block;
+    margin: auto;
+    height: 40%;
+    width: 50%;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.rightoneimage img {
+    display: block;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+
+}
+
+.rightsecondimage {
+    display: block;
+    margin: auto;
+    height: 40%;
+    width: 50%;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.rightsecondimage img {
+    display: block;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+
+
+}
+
+.c {
+    margin: 10px;
+}
+
+.t {
+    margin: 10px;
+}
+
+#rightthree {
+    height: 80vh;
+    width: 30vw;
+    margin: 25px;
+}
+
+.rightthreeimage {
+    display: block;
+    margin: auto;
+    height: 40%;
+    width: 50%;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.rightthreeimage img {
+    display: block;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.b {
+    margin: 20px;
+    text-decoration: underline;
+}
+
+.d {
+    margin: 25px;
+    text-decoration: underline;
+
+}
+
+.e {
+    margin: 25px;
+    text-decoration: underline;
+}
+
+#pagesix {
+    height: 90%;
+    width: 100%;
+}
+
+.pagetop {
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagemiddle {
+    height: 70%;
+    width: 20%;
+
+}
+
+.pagemiddle button {
+    height: 100%;
+    width: 100%;
+    font-size: larger;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(0, 0, 255);
+    border: 1px solid rgb(0, 0, 255);
+}
+
+.maincontent {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagemiddle button:hover{
+    color:black;
+    background-color: rgb(182, 221, 208);
+}
